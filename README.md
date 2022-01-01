@@ -3,3 +3,4 @@ A simple statistics website showcasing laptop prices and ratings for a universit
 * HTML
 * CSS
 * PHP
+* MySQL
