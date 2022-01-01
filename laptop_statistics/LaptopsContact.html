@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Lang" content="en">
+<meta name="author" content="">
+<meta http-equiv="Reply-to" content="@.com">
+<meta name="generator" content="PhpED 8.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="creation-date" content="09/06/2012">
+<meta name="revisit-after" content="15 days">
+<meta charset = "utf-8"/>
+<title>Laptops Contact</title>
+<link rel="stylesheet" type="text/css" href="my.css">
+<style>
+    table {
+    border-color: #4CAF50;
+    width:500px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=submit], input[type=reset], button {
+    padding:16px 32px; 
+    background:#4CAF50; 
+    border:0 none;
+    cursor:pointer;
+    margin: 4px 2px; 
+}
+body {
+  background-color: #E2E5DE;
+}
+h1 {
+  color:  #4CAF50;
+  font-family: verdana;
+  font-size: 150%;
+}
+
+.button {
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: outline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   }
+  
+   .button2 {
+   background-color: #4CAF50; 
+   color: black; 
+   border: 2px solid #4CAF50;
+   }
+
+   .button2:hover {
+   background-color: #90EE90;
+   }
+   
+   .topnav {
+   background-color: #4CAF50;
+   overflow: hidden;
+   margin-bottom: 40px;
+   transition-duration: 0.4s;
+   }
+   
+   .topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   }
+	
+   .topnav a:hover {
+   background-color: #90EE90;
+   color: black;
+   }
+   
+   .topnav a.active {
+   background-color: #00A572;
+   color: white;
+   }
+   
+</style>
+</head>
+<body>
+<div style="width:100%">
+	<div class="topnav">
+		<a href="laptops.html">Home</a>
+		<a class="active" href="LaptopsContact.html">Contact</a>
+		<a href="About.html">About</a>
+	</div>
+    <h1 class = "h1" align = "center"> Συμπληρώστε την φόρμα επικοινωνίας </h1>
+    <form action = "LaptopsContact_process.php" method = "get">
+    <table class ="table" align = "center" border = "3">
+        <tr>
+            <td> Firstname </td>
+            <td> <input type = "text" name = "firstname"/></td>
+        </tr>
+        <tr>
+            <td> Lastname </td>
+            <td> <input type = "text" name = "lastname"/></td>
+        </tr>
+        <tr>
+            <td> Email </td>
+            <td> <input type = "text" name = "email"/></td>
+        </tr>
+        <tr>
+            <td> Telephone </td>
+            <td> <input type = "text" name = "telephone"</td>
+        </tr>
+        <tr>
+            <td> Message </td>
+            <td> <input type = "text" name = "message" width="15" height="5"/></td>
+        </tr>
+    </table>
+    <p align = "center">
+        <input class="button button2" type = "submit" name = "save" value = "Submit"/>
+        <input class="button button2" type = "reset" value = "Reset All"/>
+    </p>
+    </form>
+	<div style="background-color: #f1f1f1;padding: 5px;text-align: center; margin-top: 340px;">
+		<p>
+		&copy; Dimitris Ioannidis, George Kofidis
+		</p>
+	</div>
+</div>
+</body>
+</html>
